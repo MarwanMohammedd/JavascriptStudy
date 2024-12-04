@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Lab Three</title>
+    </head>
+    <body id="container">
+        <div>
+            <div class="header">
+                <h1>Welcome To The Game</h1>
+                <button id="btnMode" onclick="DarkMode()">Mode</button>
+            </div>  
+            <div id="labelInputContainer">
+                <label class="labelStyle" for="TagNameTag">TagName:</label>
+                <input class="inputStyle" type="text" name="TagName" id="TagNameTag">
+                <label class="labelStyle" for="classNameTag">ClassName:</label>
+                <input class="inputStyle" type="text" name="ClassName" id="classNameTag">
+                <label class="labelStyle" for="idTag">Id:</label>
+                <input class="inputStyle" type="text" name="Id" id="idTag">
+                <label class="labelStyle" for="nameTag">Name:</label>
+                <input class="inputStyle" type="text" name="Name" id="nameTag">
+                <button class="btnStyle" onclick="showResult()">Show Result</button>
+            </div>
+            <div>
+                <label for="OutPutResult">OutPutResult:</label>
+                <input type="text" id="OutPutResult"  class="inputStyle">
+            </div>
+        </div>
+        <!-- <div  class="footerStyle">
+                <p>Created by &#x2764; Marwan M. Rabie</p>
+        </div> -->
+        <script src="./index.js"></script>
+    </body>
+</html>

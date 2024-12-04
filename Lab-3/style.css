@@ -1,0 +1,97 @@
+body{
+    color: black;
+}
+.DarkStyle{
+    background-color: black;
+    color: white;
+}
+.header{
+    background-color: rgb(132, 0, 255);
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.headerDark{
+    background-color: rgb(10, 42, 90);
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.labelStyle{
+    color: inherit;
+}
+.inputStyle{
+    width: 90px;
+    padding: 10px 15px 10px 15px;
+    color: inherit;
+    background-color: rgba(205, 92, 92, 0.5);
+    border-radius: 10px;
+    border: 0px;    
+}
+.inputStyleDark{
+    width: 90px;
+    padding: 10px 15px 10px 15px;
+    color: inherit;
+    background-color: rgb(10, 42, 90);
+    border-radius: 10px;
+    border: 0px;    
+}
+.btnStyle{
+    padding: 10px 15px 10px 15px;
+    background-color: darkblue;
+    color: inherit;
+    border: 0px;
+    border-radius: 10px;
+}
+.btnStyle:hover{
+    background-color: cadetblue;
+    color: navy;
+}
+/* .footerStyle{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(132, 0, 255);;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: inherit;
+} */
+#btnMode{
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(91, 100, 7);
+    color: inherit;
+    border: 0px;
+    border-radius: 10px;
+}
+#darkMode{
+    padding: 10px 15px 10px 15px;
+    background-color: darkblue;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+}
+#OutPutResult{
+    width: 500px;
+    padding: 20px 25px 20px 25px;
+    margin: 10px;
+}
+#labelInputContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.labelOutPutContainer{
+    display: flex;
+    justify-content: center;
+    color: inherit;
+    margin: 20px;
+}
+.labelOutPutContainerDark{
+    display: flex;
+    justify-content: center;
+    color: inherit;
+    margin: 20px;
+}
