@@ -1,0 +1,25 @@
+table,
+th,
+td {
+    border: 1px solid rgb(104, 255, 129);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btnStyle{
+    padding: 20px;
+    color : indigo;
+}
+.banarViewDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
