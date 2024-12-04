@@ -1,0 +1,62 @@
+table,
+th,
+td {
+    border: 1px solid rgb(104, 255, 129);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputStyle {
+    display: block;
+    margin: 25px;
+    padding: 25px;
+    border: 3px solid blueviolet;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.btnStyle {
+    padding: 25px;
+    background-color: blueviolet;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 250px;
+    border: 0px;
+}
+
+.btnStyle:hover {
+    background-color: burlywood;
+    color: white;
+    border: 0px;
+}
+
+.tableStyle {
+    border: 2px red solid;
+    border-collapse: separate;
+}
+
+.btnStyleDisabled {
+    padding: 25px;
+    background-color: gray;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 250px;
+    border: 0px;
+}
+
+.btnStyleDisabled:hover {
+    background-color: gray;
+    color: white;
+    border: 0px;
+}

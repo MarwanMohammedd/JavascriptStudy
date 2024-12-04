@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnStyle{
+    padding: 25px;
+    margin: 20px;
+    color: aliceblue;
+    background-color: coral;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.formStyle{
+    background-color: indigo;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.inputStyle{
+    padding: 10px;
+    margin: 5px;
+    background-color: whitesmoke;
+    border:transparent;
+    border-radius: 4px;
+}
+label{
+    margin: 10px;
+    font-size: large;
+    color: wheat;
+}
+#errorbanar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(94, 4, 4);
+    border-radius: 10px;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+}
+#country{
+    padding: 10px;
+    margin: 5px;
+    background-color: whitesmoke;
+    border:transparent;
+    border-radius: 4px;
+}

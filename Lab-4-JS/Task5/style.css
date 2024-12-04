@@ -1,0 +1,50 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containercircles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btnStyle{
+    padding: 25px;
+    margin: 20px;
+    color: aliceblue;
+    background-color: blue;
+    border: 0px;
+    border-radius: 4px;
+}
+.circle{
+    padding: 50px;
+    margin: 15px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}
+.circleRed{
+    padding: 50px;
+    margin: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+.circleGreen{
+    padding: 50px;
+    margin: 15px;
+    border-radius: 50%;
+    background-color: green;
+}
+.circleYellow{
+    padding: 50px;
+    margin: 15px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+#textStyle{
+    font-size: xx-large;
+    color: red ;
+}

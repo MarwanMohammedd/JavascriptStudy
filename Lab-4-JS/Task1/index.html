@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab Three</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <input class="inputStyle" id="usrInput" type="text"
+                name="studentName"
+                placeholder="Enter Your Name">
+            <span id="usrInputError"></span>
+            <input class="inputStyle" id="ageInput" type="number"
+                name="studentAge"
+                placeholder="Enter Age" min="18" max="99">
+
+            <span id="ageInputError"></span>
+
+            <button id="btnSubmit" class="btnStyle" onclick="TakeAction()" >Add Student</button>
+            <span id="exsitedElement"></span>
+
+            <table class="tableStyle">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>NAME</th>
+                        <th>Age</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="TableBody">
+                </tbody>
+            </table>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>

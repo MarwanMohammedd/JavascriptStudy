@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab Three</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action class="formStyle">
+                <label for="usr">Name</label>
+                <input type="text" name="username" id="usr" class="inputStyle"
+                    placeholder="UserName">
+                <br>
+                <label for="email">Email</label>
+                <input type="text" name="useremail" id="email"
+                    class="inputStyle" placeholder="Email@email.com">
+                <br>
+                <label for="pass">password</label>
+                <input type="password" name="password" id="pass"
+                    class="inputStyle" placeholder="Password">
+                <br>
+                <label>Gender</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <br>
+                <label>Sports</label>
+                <input type="checkbox" name="sports" id="tennis"
+                    class="inputStyle" value="tennis">
+                <label for="tennis">Tennis</label>
+                <input type="checkbox" name="sports" id="runnig"
+                    class="inputStyle" value="runnig">
+                <label for="runnig">Runnig</label>
+                <input type="checkbox" name="sports" id="football"
+                    value="football">
+                <label for="football">Football</label>
+                <br>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value disabled selected>Select a country</option>
+                    <option value="egypt">egypt</option>
+                    <option value="KSA">KSA</option>
+                    <option value="USA">USA</option>
+                </select>
+                <br>
+                <button class="btnStyle" id="btnSubmit">Submit</button>
+                <button class="btnStyle" id="btnReset">Reset</button>
+                <div id="errorbanar">
+                    <span id="forname">name is required</span>
+                    <span id="foremail">email is not valid</span>
+                    <span id="forpassword">password must be 8 chars at least
+                    </span>
+                    <span id="forgender">please select your gender</span>
+                    <span id="forsports">please select at least two
+                        sports</span>
+                    <span id="forcountry">please select your country</span>
+                </div>
+                <form>
+
+                </div>
+                <script src="./index.js"></script>
+            </body>
+        </html>
